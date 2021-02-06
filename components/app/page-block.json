@@ -1,0 +1,26 @@
+{
+  "collectionName": "page_block",
+  "info": {
+    "name": "Page Block",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "background_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "background_color": {
+      "model": "color"
+    }
+  }
+}

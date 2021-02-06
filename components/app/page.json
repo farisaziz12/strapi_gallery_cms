@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_app_pages",
+  "info": {
+    "name": "Page",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background_color": {
+      "model": "color"
+    },
+    "route": {
+      "model": "route"
+    },
+    "slideshow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app.slideshow"
+    },
+    "rails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "app.rail"
+    },
+    "cta_cards": {
+      "collection": "cta-cards"
+    }
+  }
+}

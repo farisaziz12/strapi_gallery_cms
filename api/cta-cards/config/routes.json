@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cta-cards",
+      "handler": "cta-cards.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cta-cards/count",
+      "handler": "cta-cards.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cta-cards/:id",
+      "handler": "cta-cards.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cta-cards",
+      "handler": "cta-cards.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cta-cards/:id",
+      "handler": "cta-cards.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cta-cards/:id",
+      "handler": "cta-cards.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cta_cards",
+  "info": {
+    "name": "CTA Cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "default": "/",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

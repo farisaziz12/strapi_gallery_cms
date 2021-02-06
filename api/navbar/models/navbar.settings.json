@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "nav_items": {
+      "collection": "nav-item"
+    },
+    "nav_dropdowns": {
+      "collection": "nav-dropdown"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_app_rails",
+  "info": {
+    "name": "Rail",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

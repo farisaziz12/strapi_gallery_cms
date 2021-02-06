@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_items",
+  "info": {
+    "name": "Nav item",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "route": {
+      "model": "route"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

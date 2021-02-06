@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "mains",
+  "info": {
+    "name": "Main",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "page": {
+      "type": "component",
+      "repeatable": false,
+      "component": "app.page"
+    }
+  }
+}
